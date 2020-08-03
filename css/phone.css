@@ -1,0 +1,383 @@
+#navigation {
+  flex-direction: column;
+}
+#navigation ul li a {
+  font-size: 0.9rem;
+  padding: 0px 7px;
+  padding-bottom: 4px;
+}
+
+/* about */
+#about-section .box1 {
+  /* border:2px solid brown; */
+  margin: -2px 0px;
+  border-radius: 23px;
+  /* background: #f2f2f2; */
+  margin-bottom: 10px;
+}
+
+/* Skill  */
+#skill-section .container {
+  flex-direction: column;
+}
+
+#skill-section .container #box1 img {
+  width: 78%;
+  padding-right: 109px;
+  animation-name: sumon7;
+  animation-duration: 3s;
+}
+#skill-section .container #box2 img {
+  width: 59%;
+  animation-name: sumon3;
+  animation-duration: 3s;
+}
+#skill-section .container #box3 img {
+  width: 67%;
+  animation-name: sumon6;
+  animation-duration: 3s;
+}
+#skill-section .container #box4 img {
+  width: 49%;
+  animation-name: sumon5;
+  animation-duration: 3s;
+  padding-left: 73px;
+}
+@media only screen and (max-width: 684px) {
+  #skill-section .container #box1 {
+    margin: 127px -141px;
+  }
+  #skill-section .container #box2 {
+    margin: 127px -141px;
+  }
+  #skill-section .container #box3 {
+    margin: 127px -141px;
+  }
+  #skill-section .container #box4 {
+    margin: 127px -141px;
+  }
+}
+/* contact */
+
+#contact-section .container {
+  flex-direction: column;
+}
+
+#contact-section .email {
+  /* border: 5px solid green; */
+  /* border: 5px solid green; */
+  padding: 1px 75px;
+  margin: 107px 13px;
+  border-radius: 22px;
+  font-family: "Sofia";
+  font-size: 48px;
+  color: white;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+
+/* More */
+#more-section .container {
+  flex-direction: column;
+}
+#more-section .container #box1 img {
+  width: 88%;
+  height: 260px;
+  padding-left: 71px;
+  padding-bottom: 38px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#more-section .container #box2 img {
+  height: 258px;
+  width: 155%;
+  padding-left: 38px;
+  /* margin-right: 6px; */
+  padding-right: 293px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#more-section .container #box3 img {
+  width: 70%;
+  height: 199px;
+  padding-bottom: 38px;
+  padding-left: 216px;
+  padding-right: 34px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+
+@media only screen and (max-width: 375px) {
+  #more-section .container #box1 img {
+    width: 158%;
+    height: 260px;
+    padding-right: 177px;
+    padding-left: 0px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box2 img {
+    height: 228px;
+    width: 147%;
+    padding-left: 113px;
+    /* margin-right: 6px; */
+    padding-right: 293px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box3 img {
+    width: 70%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 105px;
+    padding-right: 3px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+
+  #about-section .box1 p{
+    font-family: "Autour One";
+      font-size: 17px;
+      text-align: center;
+      animation-name: sumon3;
+      animation-duration: 2s;
+  }
+  #contact-section .message {
+    padding: 7px 77px;
+    margin: 160px 29px;
+    border-radius: 22px;
+    font-family: "Sofia";
+    font-size: 28px;
+    color: white;
+    animation-name: sumon2;
+    animation-duration: 4s;
+
+  }
+  #contact-section .email {
+    /* border: 5px solid green; */
+    padding: 1px 75px;
+    margin: 118px 16px;
+    border-radius: 22px;
+    font-family: "Sofia";
+    font-size: 32px;
+    color: white;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+}
+
+@media only screen and (max-width: 680px) and (min-width: 380px) {
+  #more-section .container #box1 img {
+    width: 111%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 0px;
+    padding-right: 39px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box2 img {
+    height: 228px;
+    width: 147%;
+    padding-left: 113px;
+    /* margin-right: 6px; */
+    padding-right: 293px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box3 img {
+    width: 70%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 105px;
+    padding-right: 3px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+}
+
+@media only screen and (max-width: 300px) and (min-width: 100px){
+
+
+   
+
+  #more-section .container #box1 img {
+    width: 170%;
+    height: 234px;
+    padding-right: 177px;
+    padding-left: 0px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box2 img {
+    height: 228px;
+    width: 147%;
+    padding-left: 113px;
+    /* margin-right: 6px; */
+    padding-right: 293px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box3 img {
+    width: 85%;
+    height: 201px;
+    padding-bottom: 38px;
+    padding-left: 63px;
+    padding-right: 3px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+
+
+  #contact-section .email {
+       /* border: 5px solid green; */
+    /* border: 5px solid green; */
+    padding: 1px 61px;
+    margin: 100px 17px;
+    border-radius: 16px;
+    font-family: "Sofia";
+    font-size: 20px;
+    color: white;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #contact-section .message {
+    padding: 9px 37px;
+    margin: 172px 13px;
+    border-radius: 22px;
+    font-family: "Sofia";
+    font-size: 21px;
+    color: white;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+
+  #skill-section .container #box1 img {
+    width: 78%;
+    padding-right: 109px;
+    animation-name: sumon7;
+    animation-duration: 3s;
+  }
+  #skill-section .container #box2 img {
+    width: 43%;
+    animation-name: sumon3;
+    animation-duration: 3s;
+  }
+  #skill-section .container #box3 img {
+    width: 43%;
+    animation-name: sumon6;
+    animation-duration: 3s;
+  }
+  #skill-section .container #box4 img {
+    width: 43%;
+    animation-name: sumon5;
+    animation-duration: 3s;
+    padding-left: 0px;
+  }
+  #about-section .box1 {
+    /* border:2px solid brown; */
+    margin: -2px 0px;
+    border-radius: 23px;
+    /* background: #f2f2f2; */
+    margin-bottom: 10px;
+  }
+
+
+#about-section .box1 p{
+  font-family: "Autour One";
+    font-size: 13px;
+    text-align: center;
+    animation-name: sumon3;
+    animation-duration: 2s;
+}
+  
+}
+
+
+
+
+@media only screen and (max-width: 700px) and (min-width: 687px) {
+  #more-section .container #box1 img {
+    width: 111%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 0px;
+    padding-right: 39px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box2 img {
+    height: 228px;
+    width: 147%;
+    padding-left: 113px;
+    /* margin-right: 6px; */
+    padding-right: 293px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box3 img {
+    width: 74%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 220px;
+    padding-right: 0px;
+  
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 612px) and (min-width: 385px) {
+  #more-section .container #box1 img {
+    width: 111%;
+    height: 199px;
+    padding-bottom: 38px;
+    padding-left: 0px;
+    padding-right: 39px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box2 img {
+    height: 228px;
+    width: 147%;
+    padding-left: 113px;
+    /* margin-right: 6px; */
+    padding-right: 293px;
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+  #more-section .container #box3 img {
+    width: 73%;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-left: 109px;
+    animation-name: sumon2;
+  
+    animation-name: sumon2;
+    animation-duration: 4s;
+  }
+}
+
+@media only screen and (max-width: 330px) and (min-width: 315px) {
+
+#more-section .container #box3 img {
+  width: 80%;
+  height: 199px;
+  padding-bottom: 38px;
+  padding-left: 82px;
+  padding-right: 3px;
+
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#about-section .box1 p{
+  font-family: "Autour One";
+    font-size: 13px;
+    text-align: center;
+    animation-name: sumon3;
+    animation-duration: 2s;
+}
+}

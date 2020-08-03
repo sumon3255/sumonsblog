@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+ 
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+:root {
+  --navigation-height: 69px;
+}
+#navigation {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  
+  
+  
+}
+#navigation ul {
+  display: flex;
+  margin-top: 14px;
+  margin-bottom: -4px;
+}
+#navigation ul li {
+  /* color: white; */
+  list-style: none;
+  font-family: "Bree Serif";
+}
+#navigation ul li a {
+  text-decoration: none;
+  padding: 3px 4px;
+  border-radius: 20px;
+  color: white;
+}
+.navbar {
+  padding: 3px;
+  margin: 2px 6px;
+}
+#navigation::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#navigation ul li a:hover {
+  background-color: rgb(0, 173, 189);
+}
+
+#intro {
+  position: relative;
+  overflow: hidden;
+}
+
+#intro::before {
+  content: "";
+  background: url("../binary-4942920_1920.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 113%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#logo img {
+  margin: 36px 3px;
+  width: 12%;
+  position: relative;
+  animation-name: sumon;
+  animation-duration: 1s;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#text {
+  font-family: "Bree Serif";
+  font-size: 30px;
+  color: white;
+  margin: -6px 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 4px;
+}
+
+#about-section {
+  position: relative;
+  overflow: hidden;
+}
+#about-section::before {
+  content: "";
+  position: absolute;
+  /* background:url(img/about2.jpg); */
+  background: url("../img/about2.jpg") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 103%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#logo2 img {
+  /* margin: 24px 3px; */
+  height: 92px;
+  width: 170px;
+  position: relative;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#logo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sublogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sublogo img {
+  padding-bottom: 21px;
+  margin: -17px 3px;
+  width: 8%;
+  animation-name: sumon;
+  animation-duration: 1s;
+}
+
+#about-section .box1 {
+  /* border:2px solid brown; */
+  padding: 25px;
+  margin: 4px 446px;
+  border-radius: 23px;
+  /* background: #f2f2f2; */
+  margin-bottom: 10px;
+}
+
+#about-section .box1 p {
+  font-family: "Autour One";
+  font-size: 22px;
+  text-align: center;
+  animation-name: sumon3;
+  animation-duration: 2s;
+}
+#about-section .box1 h1 {
+  font-family: "Bree Serif";
+  text-align: center;
+  animation-name: sumon3;
+  animation-duration: 2s;
+}
+
+#skill-section {
+  position: relative;
+  overflow: hidden;
+}
+#skill-section::before {
+  content: "";
+  position: absolute;
+  background: url("../redbg.jpg") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 111%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#skill-section h1 {
+  font-family: "Sofia";
+  font-size: 48px;
+  text-align: center;
+  color: #e91e63;
+  animation-name: sumon4;
+  animation-duration: 3s;
+}
+
+#skill-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 212px;
+}
+#skill-section .container #box1 img {
+  width: 78%;
+  animation-name: sumon7;
+  animation-duration: 3s;
+}
+#skill-section .container #box2 img {
+  width: 78%;
+  animation-name: sumon3;
+  animation-duration: 3s;
+}
+#skill-section .container #box3 img {
+  width: 78%;
+  animation-name: sumon6;
+  animation-duration: 3s;
+}
+#skill-section .container #box4 img {
+  width: 37%;
+  animation-name: sumon5;
+  animation-duration: 3s;
+}
+
+#skill-section .container #box2 {
+  margin: 8px 50px;
+}
+
+#contact-section {
+  position: relative;
+  overflow: hidden;
+}
+#contact-section::before {
+  content: "";
+  position: absolute;
+  background:url("../contact.jpg") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#contact-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#contact-section a {
+  background-color: blue;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+#contact-section a:hover {
+  font-size: 65px;
+  transition-duration: 1s;
+}
+#contact-section .email {
+  /* border: 5px solid green; */
+  padding: 1px 75px;
+  margin: 160px 29px;
+  border-radius: 22px;
+  font-family: "Sofia";
+  font-size: 48px;
+  color: white;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#contact-section .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -250px;
+}
+#contact-section .message {
+  padding: 7px 77px;
+  margin: 160px 29px;
+  border-radius: 22px;
+  font-family: "Sofia";
+  font-size: 38px;
+  color: white;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+
+#contact-section h1 {
+  font-family: "Sofia";
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  animation-name: sumon4;
+  animation-duration: 3s;
+}
+
+#more-section{
+  position: relative;
+  overflow: hidden;
+
+ 
+}
+#more-section::before {
+  content: "";
+  position: absolute;
+  background: url("../follow.jpg") no-repeat center center/cover;
+  /* background-color: black; */
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  
+}
+#more-section .container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+#more-section .container #box1 img{
+ 
+  width: 71%;
+  height: 147px;
+  padding-bottom: 38px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#more-section .container #box2 img{
+
+  height: 147px;
+  width: 158%;
+  padding-bottom: 37px;
+  /* margin-right: 6px; */
+  padding-right: 293px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#more-section .container #box3 img{
+ 
+  width: 71%;
+  height: 147px;
+  padding-bottom: 38px;
+  padding-left: 77px;
+  animation-name: sumon2;
+  animation-duration: 4s;
+}
+#more-section h1 {
+  font-family: "Bree Serif";
+  font-size: 48px;
+  padding-bottom: 51px;
+  text-align: center;
+  color: black;
+  animation-name: sumon4;
+  animation-duration: 3s;
+}
+
+footer{
+  color:white;
+  background-color: black;
+  text-align: center;
+
+
+}
+
+footer a:hover{
+  
+  text-decoration: none;
+  color:blue;
+
+
+}
+
+
+
+/* all */
+
+/* 
+Animation */
+
+@keyframes sumon {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes sumon2 {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sumon3 {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes sumon4 {
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes sumon5 {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes sumon6 {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sumon7 {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
